@@ -1,5 +1,1 @@
-- botao live preview que leva pro site no ar
-- botao github que leva pro repositorio
-- escolher 1 imagem que demonstra melhor o app
-- pequena descricao
-- tags com as tecnologias que foram utilizadas
+
