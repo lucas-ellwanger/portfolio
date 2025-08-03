@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
+import { title, description } from "@/lib/metadata";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import "./globals.css";
@@ -12,10 +13,24 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Lucas Ellwanger",
-  description: "Lucas Ellwanger's personal portfolio website",
+  title,
+  description,
   icons: {
     icon: "/favicon.svg",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title,
+    description,
+    url: "https://lucas-ellwanger.vercel.app",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/11988465?v=4",
+      },
+    ],
   },
 };
 

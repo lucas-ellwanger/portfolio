@@ -22,7 +22,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <p className="-mb-2">{`Olá, sou o Lucas, prazer! :)`}</p>
+      <p className="-mb-2">{`Oi, sou o Lucas, prazer! :)`}</p>
 
       <p>
         Desenvolvedor full-stack apaixonado por construir aplicações web
