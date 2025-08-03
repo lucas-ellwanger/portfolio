@@ -18,9 +18,7 @@ export const Hero = () => {
 
         <div className="flex flex-col gap-0.5">
           <h1 className="text-xl">Lucas Ellwanger</h1>
-          <h1 className="text-[1.085rem] text-neutral-300">
-            Software Engineer
-          </h1>
+          <h1 className="text-[1.10rem] text-neutral-300">Software Engineer</h1>
         </div>
       </div>
 
