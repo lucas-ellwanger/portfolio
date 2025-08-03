@@ -44,8 +44,8 @@ export const Projects = () => {
                 </div>
               </CardContent>
 
-              <CardHeader className="px-4 -mb-4">
-                <CardTitle className="text-base">{project.name}</CardTitle>
+              <CardHeader className="px-4 -mb-4 gap-y-2">
+                <CardTitle>{project.name}</CardTitle>
                 <CardDescription className="text-neutral-300">
                   {project.description}
                 </CardDescription>
