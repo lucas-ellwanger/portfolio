@@ -16,15 +16,15 @@ import {
 const socials = [
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/lucasellwanger",
+    href: "https://linkedin.com/in/lucas-ellwanger",
     icon: <LinkedinIcon className="size-7" strokeWidth={1.3} />,
     ariaLabel: "Open Lucas' LinkedIn profile",
   },
   {
     name: "GitHub",
-    href: "https://github.com/lucasellwanger",
+    href: "https://github.com/lucas-ellwanger",
     icon: <GithubIcon className="size-7" strokeWidth={1.3} />,
-    ariaLabel: "Open Lucas' Github profile",
+    ariaLabel: "Open Lucas' GitHub profile",
   },
   {
     name: "Email",
