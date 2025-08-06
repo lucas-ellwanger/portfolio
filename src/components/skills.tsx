@@ -12,16 +12,16 @@ export const Skills = () => {
         <h1>Skills</h1>
       </div>
 
-      <ul className="flex flex-row flex-wrap gap-2 md:gap-4">
+      <ul className="flex flex-row flex-wrap gap-2">
         {skills.map(({ name, href }) => (
           <li key={href}>
             <Badge variant="logo">
               <img
                 src={href}
-                alt="skill logo"
-                className="mr-2 size-4 md:size-6"
+                alt={`${name} logo`}
+                className="mr-[0.45rem] size-4.5 md:size-7"
               />
-              <span className="text-base font-normal text-neutral-300 md:text-base">
+              <span className="text-base font-normal text-neutral-300">
                 {name}
               </span>
             </Badge>

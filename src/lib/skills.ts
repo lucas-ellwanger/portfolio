@@ -40,20 +40,20 @@ export const skills = [
     href: "/tailwindcss.svg",
   },
   {
-    name: "tRPC",
-    href: "/trpc.svg",
-  },
-  {
-    name: "Hono",
-    href: "/hono.svg",
-  },
-  {
     name: "Prisma",
     href: "/prisma.svg",
   },
   {
     name: "Drizzle",
     href: "/drizzle.svg",
+  },
+  {
+    name: "tRPC",
+    href: "/trpc.svg",
+  },
+  {
+    name: "Hono",
+    href: "/hono.svg",
   },
   {
     name: "TanStack Query",
@@ -76,11 +76,15 @@ export const skills = [
     href: "/sqlite.svg",
   },
   {
+    name: "Linux",
+    href: "/linux.svg",
+  },
+  {
     name: "Zod",
     href: "/zod.svg",
   },
   {
-    name: "shadcn",
+    name: "shadcn/ui",
     href: "/shadcn.svg",
   },
   {
@@ -90,18 +94,6 @@ export const skills = [
   {
     name: "Redux Toolkit",
     href: "/redux.svg",
-  },
-  {
-    name: "Linux",
-    href: "/linux.svg",
-  },
-  {
-    name: "AWS",
-    href: "/aws.svg",
-  },
-  {
-    name: "Cloudflare",
-    href: "/cloudflare.svg",
   },
   {
     name: "Docker",
