@@ -18,25 +18,31 @@ const socials = [
     name: "LinkedIn",
     href: "https://linkedin.com/in/lucas-ellwanger",
     icon: <LinkedinIcon className="size-7" strokeWidth={1.3} />,
-    ariaLabel: "Open Lucas' LinkedIn profile",
+    ariaLabel: "Abrir perfil do Lucas no LinkedIn",
   },
   {
     name: "GitHub",
     href: "https://github.com/lucas-ellwanger",
     icon: <GithubIcon className="size-7" strokeWidth={1.3} />,
-    ariaLabel: "Open Lucas' GitHub profile",
+    ariaLabel: "Abrir perfil do Lucas no GitHub",
   },
   {
     name: "Email",
     href: "mailto:lucasellwanger.dev@gmail.com",
     icon: <MailIcon className="size-7" strokeWidth={1.3} />,
-    ariaLabel: "Send email to Lucas",
+    ariaLabel: "Enviar email para Lucas",
   },
   {
     name: "WhatsApp",
-    href: "https://wa.link/sp2kf4",
+    href: "https://wa.link/sng5ot",
     icon: <PhoneIcon className="size-7" strokeWidth={1.3} />,
-    ariaLabel: "Start WhatsApp chat with Lucas",
+    ariaLabel: "Enviar WhatsApp para Lucas",
+  },
+  {
+    name: "Currículo",
+    href: "https://drive.google.com/file/d/1bJao5tUnTDFHHA5nhB2GOOV4Z6ZuLSaN/view?usp=drive_link",
+    icon: <FileDownIcon className="size-7" strokeWidth={1.3} />,
+    ariaLabel: "Baixar currículo do Lucas",
   },
 ];
 
@@ -70,25 +76,6 @@ export const Links = () => {
             </Tooltip>
           </li>
         ))}
-        <li>
-          <Tooltip delayDuration={300}>
-            <TooltipTrigger asChild>
-              <Button
-                variant="social"
-                size="social"
-                className="rounded-full"
-                asChild
-              >
-                <a href="/CV.pdf" aria-label="Download Lucas' CV" download>
-                  <FileDownIcon className="size-7" strokeWidth={1.3} />
-                </a>
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent side="bottom" sideOffset={5}>
-              <p>Download CV</p>
-            </TooltipContent>
-          </Tooltip>
-        </li>
       </>
     </ul>
   );

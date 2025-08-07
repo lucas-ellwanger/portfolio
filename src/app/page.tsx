@@ -6,6 +6,8 @@ import { Contact } from "@/components/contact";
 import { Separator } from "@/components/ui/separator";
 import { Projects } from "@/components/projects";
 
+export const dynamic = "force-static";
+
 export default function Home() {
   return (
     <>

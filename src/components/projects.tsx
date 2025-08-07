@@ -77,7 +77,7 @@ export const Projects = () => {
                     href={project.liveUrl}
                     rel="noopener noreferrer"
                     target="_blank"
-                    aria-label={`${project.name} live view`}
+                    aria-label={`Ver o projeto ${project.name} online`}
                   >
                     <SquareArrowOutUpRightIcon strokeWidth={1.7} />
                     Ver online
@@ -93,7 +93,7 @@ export const Projects = () => {
                     href={project.repositoryUrl}
                     rel="noopener noreferrer"
                     target="_blank"
-                    aria-label={`${project.name} github repository`}
+                    aria-label={`Ver o repositório do projeto ${project.name} no GitHub`}
                   >
                     <GithubIcon strokeWidth={1.7} />
                     Repositório
