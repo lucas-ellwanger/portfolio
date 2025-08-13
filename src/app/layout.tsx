@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import { title, description } from "@/lib/metadata";
+import { title, description, profileImage, siteUrl } from "@/lib/metadata";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import "./globals.css";
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    url: "https://lucas-ellwanger.vercel.app",
+    url: siteUrl,
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/11988465?v=4",
+        url: profileImage,
       },
     ],
   },
@@ -44,12 +44,7 @@ export default function RootLayout({
       <body
         className={`${geist.className} mx-4 mt-12 flex max-w-2xl flex-col antialiased md:flex-row lg:mx-auto`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          // enableSystem
-          // disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <main className="mt-6 flex min-w-0 flex-auto flex-col gap-y-[4.25rem] px-2 lg:px-0">
             {children}
             <Analytics />

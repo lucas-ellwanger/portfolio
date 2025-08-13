@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { profileImage } from "@/lib/metadata";
 import { Links } from "@/components/links";
 
 export const Hero = () => {
@@ -7,7 +8,7 @@ export const Hero = () => {
     <section className="flex flex-col gap-y-6">
       <div className="flex gap-x-6 items-center">
         <Image
-          src="https://avatars.githubusercontent.com/u/11988465?v=4"
+          src={profileImage}
           alt="lucas avatar"
           width="80"
           height="80"

@@ -1,3 +1,6 @@
+export const siteUrl = "https://lucas-ellwanger.vercel.app";
+export const profileImage =
+  "https://avatars.githubusercontent.com/u/11988465?v=4";
 export const title = "Lucas Ellwanger";
 export const description = `Oi, sou o Lucas, prazer! :)
   
