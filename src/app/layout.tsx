@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import { title, description, profileImage, siteUrl } from "@/lib/metadata";
+import { title, description, siteUrl, siteImage } from "@/lib/metadata";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import "./globals.css";
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     images: [
       {
-        url: profileImage,
+        url: siteImage,
       },
     ],
   },
