@@ -40,7 +40,7 @@ const socials = [
   },
   {
     name: "Currículo",
-    href: "https://drive.google.com/file/d/1TtnjRQX--7MuYC97jIR1ZDjS_-bo39Lb/view",
+    href: "https://drive.google.com/file/d/1Af53bXNbEiL3LXGQF52V9XdsSLYQbwbI/view",
     icon: <FileDownIcon className="size-7" strokeWidth={1.3} />,
     ariaLabel: "Baixar currículo do Lucas",
   },
